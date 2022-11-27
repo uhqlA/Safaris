@@ -3,6 +3,7 @@ import "./navbar.css"
 import Logo from "../../Assets/logo.jpeg"
 import {AiFillCloseCircle} from "react-icons/ai"
 import {TbGridDots} from "react-icons/tb"
+import { Link } from 'react-router-dom'
 
 const Navbar = () => {
 
@@ -40,25 +41,25 @@ const Navbar = () => {
       <div className={active}>
         <ul className="navLists flex">
           <li className="navItem">
-            <a href="/" className="navLink">Home</a>
+            <Link to="/" className="navLink">Home</Link>
           </li>
           <li className="navItem">
-            <a href="/" className="navLink">About</a>
+            <Link to="/about" className="navLink">About</Link>
           </li>
           <li className="navItem">
-            <a href="/" className="navLink">Safaris</a>
+            <a href="/safaris" className="navLink">Safaris</a>
           </li>
           <li className="navItem">
-            <a href="/" className="navLink">Services</a>
+            <Link to="/services" className="navLink">Services</Link>
           </li>
           <li className="navItem">
-            <a href="/" className="navLink">Gallery</a>
+            <Link to="/gallery" className="navLink">Gallery</Link>
           </li>
           <li className="navItem">
-            <a href="/" className="navLink">Shop</a>
+            <Link to="/shop" className="navLink">Shop</Link>
           </li>
           <li className="navItem">
-            <a href="/" className="navLink">Contact</a>
+            <Link to="/contact" className="navLink">Contact</Link>
           </li>
 
           <button className='btn'>

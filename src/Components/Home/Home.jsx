@@ -2,6 +2,10 @@ import React, {useEffect} from "react";
 import "./home.css";
 import Marquee from "react-fast-marquee";
 import video from "../../Assets/video6.mp4";
+import Navbar from "../Navbar/Navbar";
+import Main from "../Main/Main";
+import Footer from "../Footer/Footer";
+
 
 
 import { GrLocation } from "react-icons/gr";
@@ -20,6 +24,8 @@ import 'aos/dist/aos.css'
 
 
 const Home = () => {
+
+  
 //react hook for adding a scroll animation
 
 useEffect(() => {
@@ -28,6 +34,10 @@ useEffect(() => {
 }, [])
 
   return (
+    <div>
+      <Navbar/>
+
+
     <section className="home">
       <div className="overlay"></div>
       <video src={video} muted autoPlay loop type="video/mp4"></video>
@@ -93,6 +103,10 @@ useEffect(() => {
         </div>
       </div>
     </section>
+
+    <Main />
+    <Footer />
+    </div>
   );
 };
 

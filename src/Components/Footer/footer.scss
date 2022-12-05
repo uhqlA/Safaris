@@ -119,6 +119,8 @@ margin: auto;
     .footerParagraph{
       font-size: 13px;
       color: var(--textColor);
+      text-align: justify;
+    text-justify: inter-word;
     }
     .footerSocials{
       column-gap: .5rem;

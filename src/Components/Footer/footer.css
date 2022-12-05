@@ -119,6 +119,8 @@
 .footer .secContent .footerCard .footerParagraph {
   font-size: 13px;
   color: var(--textColor);
+  text-align: justify;
+  text-justify: inter-word;
 }
 .footer .secContent .footerCard .footerSocials {
   -moz-column-gap: 0.5rem;

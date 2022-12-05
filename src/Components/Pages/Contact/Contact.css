@@ -1,1 +1,61 @@
-/*# sourceMappingURL=Contact.css.map */
+:root {
+  --PrimaryColor: hsl(199, 100%, 33%);
+  --SecondaryColor: hsl(187, 85%, 43%);
+  --gradientColor: linear-gradient(
+    to right,
+    hsl(187, 85%, 43%),
+    hsl(199, 100%, 33%)
+  );
+  --whiteColor: hsl(0, 0%, 100%);
+  --blackColor: hsl(201, 33%, 16%);
+  --textColor: hsl(240, 4%, 36%);
+  --whiteColorDeam: hsl(0, 0%, 93%);
+  --greyText: rgb(190, 190, 190);
+  --inputColor: rgb(239, 239, 239);
+  --cardBG: rgb(225, 225, 236);
+  --bodyColor: rgb(240, 240, 246);
+  --logoColor: rgb(40, 19, 6);
+}
+
+.photo {
+  width: 100%;
+  height: 500px;
+}
+
+.content {
+  color: azure;
+  position: absolute;
+  top: 30%;
+  left: 30%;
+  text-align: center;
+  font-size: 1.5rem;
+  color: var(--whiteColor);
+}
+
+@media (max-width: 768px) {
+  .photo {
+    width: 100%;
+    height: 300px;
+  }
+  .content {
+    color: rgb(212, 238, 238);
+    position: absolute;
+    top: 25%;
+    left: 6%;
+    text-align: center;
+    font-size: 1rem;
+  }
+}
+@media (min-width: 1500px) and (max-width: 2560px) {
+  .photo {
+    width: 100%;
+    height: 700px;
+  }
+  .content {
+    color: azure;
+    position: absolute;
+    top: 30%;
+    left: 37%;
+    text-align: center;
+  }
+}/*# sourceMappingURL=Contact.css.map */

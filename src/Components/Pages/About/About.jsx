@@ -79,6 +79,7 @@ const About = () => {
               <br></br>
               <br></br>
               Let us transform your travels into an unforgettable experience.
+              <br></br>
               That's why we say: <b>SAFIRI KIBAZENGA</b>
             </div>
           </div>

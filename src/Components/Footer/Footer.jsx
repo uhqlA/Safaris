@@ -56,6 +56,7 @@ const Footer = () => {
                     height: "40px",
                     borderRadius: "5px",
                     padding: "1px",
+                    margin: "10px"
                   }}
                   src={Logo}
                   alt="logo"

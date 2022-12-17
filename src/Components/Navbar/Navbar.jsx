@@ -63,7 +63,7 @@ const Navbar = () => {
           </li>
 
           <button className='btn'>
-            <a href="/">Book Now</a>
+            <a href="/contact">Get In toutch</a>
           </button>
         </ul>
         <div onClick={closeNav} className="closeNavbar">

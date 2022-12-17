@@ -1,13 +1,12 @@
 import React, {useEffect} from "react";
 import "./home.css";
 import Marquee from "react-fast-marquee";
-import video from "../../Assets/video6.mp4";
+import video from "../../Assets/bazenga.mp4";
 import Navbar from "../Navbar/Navbar";
 import Main from "../Main/Main";
 import Footer from "../Footer/Footer";
 
-
-
+//Icons
 import { GrLocation } from "react-icons/gr";
 import { HiFilter } from "react-icons/hi";
 import { FaTwitter } from "react-icons/fa";
@@ -20,7 +19,7 @@ import { TbApps } from "react-icons/tb";
 import { BsListTask } from "react-icons/bs";
 
 import Aos from "aos";
-import 'aos/dist/aos.css'
+import 'aos/dist/aos.css';
 
 
 const Home = () => {

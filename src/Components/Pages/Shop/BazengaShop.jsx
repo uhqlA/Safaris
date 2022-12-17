@@ -1,8 +1,11 @@
 import React from 'react'
+import Navbar from '../../Navbar/Navbar';
 
 const BazengaShop = () => {
   return (
-    <div>BazengaShop</div>
+    <div>
+      <Navbar />
+    </div>
   )
 }
 

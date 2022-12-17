@@ -199,6 +199,9 @@ margin: auto;
           grid-template-columns: repeat(3, 1fr);
           padding-bottom: 1rem;
         }
+        .footerList{
+          margin-left: 5px;
+        }
 
         .footerDiv{
           justify-content: space-between;
@@ -231,6 +234,9 @@ margin: auto;
           input{
             width: 60%;
           }
+          .footerList{
+            margin-left: 5px;
+          }
           .btn{
             width: max-content;
           }
@@ -251,6 +257,9 @@ margin: auto;
         .footerLinks{
           grid-template-columns: repeat(3, 1fr);
           padding-bottom: 1rem;
+        }
+        .footerList{
+          margin-left: 5px;
         }
       }
   }
@@ -277,6 +286,9 @@ margin: auto;
 
               &:hover{
                 color: var(--PrimaryColor);
+              }
+              .footerList{
+                margin-left: 5px;
               }
             }
           }

@@ -181,6 +181,9 @@
     grid-template-columns: repeat(3, 1fr);
     padding-bottom: 1rem;
   }
+  .footer .secContent .footerCard .footerList {
+    margin-left: 5px;
+  }
   .footer .secContent .footerCard .footerDiv {
     justify-content: space-between;
     flex-direction: row;
@@ -205,6 +208,9 @@
   .footer .secContent .contactDiv .inputDiv input {
     width: 60%;
   }
+  .footer .secContent .contactDiv .inputDiv .footerList {
+    margin-left: 5px;
+  }
   .footer .secContent .contactDiv .inputDiv .btn {
     width: -webkit-max-content;
     width: -moz-max-content;
@@ -221,6 +227,9 @@
   .footer .secContent .footerCard .footerLinks {
     grid-template-columns: repeat(3, 1fr);
     padding-bottom: 1rem;
+  }
+  .footer .secContent .footerCard .footerList {
+    margin-left: 5px;
   }
 }
 @media screen and (min-width: 1024px) {
@@ -241,6 +250,9 @@
   }
   .footer .secContent .footerCard .footerIntro .footerSocials .icon:hover {
     color: var(--PrimaryColor);
+  }
+  .footer .secContent .footerCard .footerIntro .footerSocials .icon .footerList {
+    margin-left: 5px;
   }
   .footer .secContent .footerLinks .linkGroup .footerList {
     font-size: 16px;

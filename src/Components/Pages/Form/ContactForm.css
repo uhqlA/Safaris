@@ -18,7 +18,7 @@
 }
 
 .primary-heading {
-  font-size: clamp(2rem, 5vw, 4rem);
+  font-size: 4vh;
   color: #4c4c4c;
   max-width: 600px;
 }
@@ -56,8 +56,11 @@
 }
 
 .contact-form-container {
+  background-color: var(--whiteColor);
   max-width: 400px;
   width: 100%;
+  margin-top: 1rem;
+  margin-bottom: 2rem;
   display: flex;
   align-items: center;
   padding: 0.5rem;

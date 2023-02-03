@@ -17,19 +17,44 @@
     --logoColor: rgb(40, 19, 6);
   }
 
-// * {
-//   // margin: 0;
-//   // padding: 0;
-//   // box-sizing: border-box;
-//   // font-family: "Reem Kufi", sans-serif !important;
-// }
 
-// body {
-//   background-color: #f6f6f6;
-// }
+  // .inputDiv{
+  //   width: 100%;
+  //   gap: 1rem;
+  //   flex-direction: column;
+
+  //   input{
+  //     width: 100%;
+  //     padding: .5rem .6rem;
+  //     border-radius: 3rem;
+  //     border: 1px solid var(--whiteColor);
+  //     outline: none;
+  //     background: transparent;
+  //     color: var(--whiteColor);
+
+  //     &::placeholder{
+  //       color: var(--whiteColor);
+  //       opacity: .5;
+  //     }
+  //   }
+  //   .btn{
+  //     width: 100%;
+  //     justify-content: center;
+  //     color: var(--whiteColor);
+  //     font-weight: 500;
+  //     gap: .5rem;
+
+  //     .icon{
+  //       font-size: 18px;
+  //     }
+  //   }
+  // }
+
+
+
 
 .primary-heading {
-  font-size: clamp(2rem, 5vw, 4rem);
+  font-size: 4vh;
   color: #4c4c4c;
   // line-height: 3rem;
   max-width: 600px;
@@ -67,15 +92,15 @@
   background-color: rgb(179, 218, 218);
 }
 .contact-form-container {
-  //background-color: rgb(180, 72, 72);
+  background-color: var(--whiteColor);
   max-width: 400px;
   width: 100%;
-  // margin-top: 2rem;
+  margin-top: 1rem;
+  margin-bottom: 2rem;
   display: flex;
   align-items: center;
   padding: 0.5rem;
   border-radius: 5rem;
-  
 }
 .contact-form-container input {
   flex: 1;
@@ -113,3 +138,6 @@
     text-align: center;
   }
 }
+
+
+

@@ -8,6 +8,7 @@ import "./About.css";
 
 import Aos from "aos";
 import "aos/dist/aos.css";
+import ContactForm from "../Form/ContactForm";
 
 const About = () => {
 
@@ -90,7 +91,9 @@ const About = () => {
             </div>
           </div>
         </div>
+        <ContactForm />
       </div>
+     
       <Footer />
     </div>
   );

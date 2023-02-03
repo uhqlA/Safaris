@@ -1,0 +1,115 @@
+:root {
+    --PrimaryColor: hsl(199, 100%, 33%);
+    --SecondaryColor: hsl(187, 85%, 43%);
+    --gradientColor: linear-gradient(
+      to right,
+      hsl(187, 85%, 43%),
+      hsl(199, 100%, 33%)
+    );
+    --whiteColor: hsl(0, 0%, 100%);
+    --blackColor: hsl(201, 33%, 16%);
+    --textColor: hsl(240, 4%, 36%);
+    --whiteColorDeam: hsl(0, 0%, 93%);
+    --greyText: rgb(190, 190, 190);
+    --inputColor: rgb(239, 239, 239);
+    --cardBG: rgb(225, 225, 236);
+    --bodyColor: rgb(240, 240, 246);
+    --logoColor: rgb(40, 19, 6);
+  }
+
+// * {
+//   // margin: 0;
+//   // padding: 0;
+//   // box-sizing: border-box;
+//   // font-family: "Reem Kufi", sans-serif !important;
+// }
+
+// body {
+//   background-color: #f6f6f6;
+// }
+
+.primary-heading {
+  font-size: clamp(2rem, 5vw, 4rem);
+  color: #4c4c4c;
+  // line-height: 3rem;
+  max-width: 600px;
+}
+
+.secondary-button {
+  padding: 1rem 2rem;
+  background-color: var(--PrimaryColor);
+  outline: none;
+  border: none;
+  border-radius: 5rem;
+  font-size: 1.1rem;
+  cursor: pointer;
+  font-weight: 600;
+  color: white;
+  transition: 0.2s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.secondary-button:hover {
+  background-color: var(--SecondaryColor);
+}
+
+.contact-page-wrapper h3 {
+  max-width: 900px !important;
+  
+}
+.contact-page-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+//   margin: rem 0rem;
+  background-color: rgb(179, 218, 218);
+}
+.contact-form-container {
+  //background-color: rgb(180, 72, 72);
+  max-width: 400px;
+  width: 100%;
+  // margin-top: 2rem;
+  display: flex;
+  align-items: center;
+  padding: 0.5rem;
+  border-radius: 5rem;
+  
+}
+.contact-form-container input {
+  flex: 1;
+  height: 100%;
+  border: none;
+  outline: none;
+  font-size: 1.3rem;
+  padding: 0.5rem 1rem;
+}
+
+@media (max-width: 800px) {
+  .primary-heading {
+    text-align: center;
+    max-width: 90%;
+  }
+
+  .secondary-button {
+    font-size: 1rem;
+    padding: 0.8rem 2rem;
+    cursor: pointer;
+  }
+
+  .contact-form-container {
+    padding: 0.5rem !important;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 1rem !important;
+  }
+  .contact-form-container input {
+    font-size: 1rem !important;
+    max-width: 100%;
+    padding: 0.5rem 1rem !important;
+    margin-bottom: 0.8rem !important;
+    text-align: center;
+  }
+}

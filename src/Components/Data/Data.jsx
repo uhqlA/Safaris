@@ -5,7 +5,6 @@ import img2 from "../../Assets/TsavoEast23.jpg"
 import img3 from "../../Assets/TsavoEast30.jpg"
 import img4 from "../../Assets/TsavoEast31.jpg"
 import img5 from "../../Assets/TsavoEast38.jpg"
-
 const Data = [
     {
       id:1,

@@ -3,6 +3,7 @@ import "./main.css";
 
 //import icons
 import { HiOutlineLocationMarker } from "react-icons/hi";
+
 import { HiOutlineClipboardCheck } from "react-icons/hi";
 import Data from "../Data/Data";
 
@@ -14,7 +15,7 @@ const Main = () => {
   //react hook for adding a scroll animation
 
   useEffect(() => {
-    Aos.init({ duration: 2000 });
+    Aos.init({ duration: 1000 });
   }, []);
 
   return (
